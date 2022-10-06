@@ -22,7 +22,7 @@ public class Strpalindrome
 	   {
 	    reverseStr=reverseStr +str.charAt(i);
 	   }
-	   if(str.toLowerCase().equals(reverseStr.toLowerCase()))
+	   if(str.equals(reverseStr))
 	   {
 	    System.out.println(str + " is a palindrome");
 	   }
